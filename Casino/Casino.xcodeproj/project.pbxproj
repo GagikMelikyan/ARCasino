@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7FE8AD21F51A3B006E6609 /* PasswordEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7FE8AC21F51A3B006E6609 /* PasswordEditViewController.swift */; };
+		0B818DC721F0E99E0062FF8C /* GameVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B818DC621F0E99E0062FF8C /* GameVIewController.swift */; };
+		0B992C8B21F3771D0010DCA3 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B992C8A21F3771D0010DCA3 /* Plane.swift */; };
+		0BC021DA220B5318001FAFA1 /* AnimatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC021D9220B5318001FAFA1 /* AnimatingButton.swift */; };
+		0BC021DC220B5322001FAFA1 /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC021DB220B5322001FAFA1 /* CustomActivityIndicator.swift */; };
+		0BC021DE220B533F001FAFA1 /* ShakingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC021DD220B533F001FAFA1 /* ShakingAnimation.swift */; };
+		0BDE871921E959E800E544B7 /* UItextField+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDE871821E959E800E544B7 /* UItextField+Validation.swift */; };
+		0BDE871B21EA4AA600E544B7 /* GamesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDE871A21EA4AA600E544B7 /* GamesCollectionViewCell.swift */; };
+		0BF3819921F13C530066FFE3 /* GlowingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3819821F13C530066FFE3 /* GlowingAnimation.swift */; };
+		0BF3819B21F13CA90066FFE3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3819A21F13CA90066FFE3 /* Colors.swift */; };
+		3D2124D321EFA5FD00E26305 /* String+getUserID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2124D221EFA5FD00E26305 /* String+getUserID.swift */; };
+		3D2685A121E29C5F005F1430 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2685A021E29C5F005F1430 /* User.swift */; };
+		3D31469E21D53EEC008812CB /* GamesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D31469D21D53EEC008812CB /* GamesCollectionViewController.swift */; };
+		3D3146A221D53FBC008812CB /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3146A121D53FBC008812CB /* UserViewController.swift */; };
+		3D38004321F7DFE2004C9FCD /* UIDatePicker+yearsLimit .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D38004221F7DFE2004C9FCD /* UIDatePicker+yearsLimit .swift */; };
+		3D69282221CD92C6006E5C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69282121CD92C6006E5C4C /* AppDelegate.swift */; };
+		3D69282421CD92C6006E5C4C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D69282321CD92C6006E5C4C /* art.scnassets */; };
+		3D69282621CD92C6006E5C4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69282521CD92C6006E5C4C /* ViewController.swift */; };
+		3D69282921CD92C6006E5C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D69282721CD92C6006E5C4C /* Main.storyboard */; };
+		3D69282E21CD92C9006E5C4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D69282C21CD92C9006E5C4C /* LaunchScreen.storyboard */; };
+		3D69283A21CE5E37006E5C4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3D69283921CE5E37006E5C4C /* GoogleService-Info.plist */; };
+		3D8129EB21D24DB0005C29D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8129EA21D24DB0005C29D7 /* LoginViewController.swift */; };
+		3D8129ED21D24DED005C29D7 /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8129EC21D24DED005C29D7 /* RegViewController.swift */; };
+		3D8A7997220B4E9600845C1A /* PassChange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8A7996220B4E9600845C1A /* PassChange.storyboard */; };
+		3D8FE17F21FB597B00DCDB10 /* DailyHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FE17E21FB597B00DCDB10 /* DailyHistoryVC.swift */; };
+		3D8FE18221FB5C6A00DCDB10 /* DailyHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FE18021FB5C6A00DCDB10 /* DailyHistoryTableViewCell.swift */; };
+		3D8FE18321FB5C6A00DCDB10 /* DailyHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D8FE18121FB5C6A00DCDB10 /* DailyHistoryTableViewCell.xib */; };
+		3DBB908E21FA0BA300053417 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBB908D21FA0BA300053417 /* History.storyboard */; };
+		3DBB909021FA0CDB00053417 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBB908F21FA0CDB00053417 /* HistoryViewController.swift */; };
+		3DC9311C21F6278500B1D49E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC9311B21F6278500B1D49E /* History.swift */; };
+		3DDD258521FB3AC300E1D5B9 /* DailyHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDD258421FB3AC300E1D5B9 /* DailyHistory.swift */; };
+		6D7022E5CD0F2C1965672B9B /* Pods_Casino.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004CE26838205D06D9C0F623 /* Pods_Casino.framework */; };
+		8435CC6221F1C57000E8DC19 /* CoinParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8435CC6021F1C57000E8DC19 /* CoinParticle.sks */; };
+		84752C4B21EA8F5C002CCF3E /* EditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84752C4A21EA8F5C002CCF3E /* EditionViewController.swift */; };
+		84752C4D21EA8F5E002CCF3E /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84752C4C21EA8F5D002CCF3E /* PopUpViewController.swift */; };
+		8493F9FA21F7B5F1003151F5 /* roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8493F9F921F7B5F1003151F5 /* roll.mp3 */; };
+		8493F9FC21F7B618003151F5 /* winning-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8493F9FB21F7B618003151F5 /* winning-sound.mp3 */; };
+		8493FA0021F7B796003151F5 /* insert-coin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8493F9FF21F7B796003151F5 /* insert-coin.mp3 */; };
+		84ECB7DC21EE9538004D68BA /* ambience_casino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84ECB7DB21EE9538004D68BA /* ambience_casino.mp3 */; };
+		84ECB7DF21EE9BBC004D68BA /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECB7DD21EE9BBC004D68BA /* HistoryTableViewCell.swift */; };
+		84ECB7E021EE9BBC004D68BA /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ECB7DE21EE9BBC004D68BA /* HistoryTableViewCell.xib */; };
+		84ECB7E321EF04A7004D68BA /* DailyRewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECB7E221EF04A7004D68BA /* DailyRewardViewController.swift */; };
+		84ECB7E921EF27AE004D68BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ECB7E821EF27AD004D68BA /* Assets.xcassets */; };
+		84ECB7EC21EF4B00004D68BA /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ECB7EB21EF4B00004D68BA /* AudioPlayer.swift */; };
+		84F3D70221F61D3100BAA172 /* UIButton+shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3D70121F61D3100BAA172 /* UIButton+shadow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004CE26838205D06D9C0F623 /* Pods_Casino.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Casino.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A01ACC3DE72C61A62CDC52 /* Pods-Casino.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Casino.release.xcconfig"; path = "Pods/Target Support Files/Pods-Casino/Pods-Casino.release.xcconfig"; sourceTree = "<group>"; };
+		0B7FE8AC21F51A3B006E6609 /* PasswordEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordEditViewController.swift; sourceTree = "<group>"; };
+		0B818DC621F0E99E0062FF8C /* GameVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVIewController.swift; sourceTree = "<group>"; };
+		0B992C8A21F3771D0010DCA3 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		0BC021D9220B5318001FAFA1 /* AnimatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatingButton.swift; sourceTree = "<group>"; };
+		0BC021DB220B5322001FAFA1 /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
+		0BC021DD220B533F001FAFA1 /* ShakingAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakingAnimation.swift; sourceTree = "<group>"; };
+		0BDE871821E959E800E544B7 /* UItextField+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UItextField+Validation.swift"; sourceTree = "<group>"; };
+		0BDE871A21EA4AA600E544B7 /* GamesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesCollectionViewCell.swift; sourceTree = "<group>"; };
+		0BF3819821F13C530066FFE3 /* GlowingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowingAnimation.swift; sourceTree = "<group>"; };
+		0BF3819A21F13CA90066FFE3 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3D2124D221EFA5FD00E26305 /* String+getUserID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+getUserID.swift"; sourceTree = "<group>"; };
+		3D2685A021E29C5F005F1430 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3D31469D21D53EEC008812CB /* GamesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesCollectionViewController.swift; sourceTree = "<group>"; };
+		3D3146A121D53FBC008812CB /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		3D38004221F7DFE2004C9FCD /* UIDatePicker+yearsLimit .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDatePicker+yearsLimit .swift"; sourceTree = "<group>"; };
+		3D69281E21CD92C6006E5C4C /* Casino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D69282121CD92C6006E5C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D69282321CD92C6006E5C4C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		3D69282521CD92C6006E5C4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D69282821CD92C6006E5C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D69282D21CD92C9006E5C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D69282F21CD92C9006E5C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D69283921CE5E37006E5C4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3D8129EA21D24DB0005C29D7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3D8129EC21D24DED005C29D7 /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
+		3D8A7996220B4E9600845C1A /* PassChange.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PassChange.storyboard; sourceTree = SOURCE_ROOT; };
+		3D8FE17E21FB597B00DCDB10 /* DailyHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHistoryVC.swift; sourceTree = "<group>"; };
+		3D8FE18021FB5C6A00DCDB10 /* DailyHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		3D8FE18121FB5C6A00DCDB10 /* DailyHistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DailyHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		3DBB908D21FA0BA300053417 /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		3DBB908F21FA0CDB00053417 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		3DC9311B21F6278500B1D49E /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		3DDD258421FB3AC300E1D5B9 /* DailyHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyHistory.swift; sourceTree = "<group>"; };
+		8435CC6021F1C57000E8DC19 /* CoinParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CoinParticle.sks; sourceTree = "<group>"; };
+		84752C4A21EA8F5C002CCF3E /* EditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditionViewController.swift; sourceTree = "<group>"; };
+		84752C4C21EA8F5D002CCF3E /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		8493F9F921F7B5F1003151F5 /* roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = roll.mp3; sourceTree = "<group>"; };
+		8493F9FB21F7B618003151F5 /* winning-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "winning-sound.mp3"; sourceTree = "<group>"; };
+		8493F9FF21F7B796003151F5 /* insert-coin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "insert-coin.mp3"; sourceTree = "<group>"; };
+		84ECB7DB21EE9538004D68BA /* ambience_casino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ambience_casino.mp3; sourceTree = "<group>"; };
+		84ECB7DD21EE9BBC004D68BA /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		84ECB7DE21EE9BBC004D68BA /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		84ECB7E221EF04A7004D68BA /* DailyRewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRewardViewController.swift; sourceTree = "<group>"; };
+		84ECB7E821EF27AD004D68BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84ECB7EB21EF4B00004D68BA /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		84F3D70121F61D3100BAA172 /* UIButton+shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+shadow.swift"; sourceTree = "<group>"; };
+		8FBC62615B9C6EE69884DB6B /* Pods-Casino.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Casino.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Casino/Pods-Casino.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D69281B21CD92C6006E5C4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7022E5CD0F2C1965672B9B /* Pods_Casino.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11A9C0BBD8334721AA04BF45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC62615B9C6EE69884DB6B /* Pods-Casino.debug.xcconfig */,
+				02A01ACC3DE72C61A62CDC52 /* Pods-Casino.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3D69281521CD92C6006E5C4C = {
+			isa = PBXGroup;
+			children = (
+				8435CC6021F1C57000E8DC19 /* CoinParticle.sks */,
+				3D69282021CD92C6006E5C4C /* Casino */,
+				11A9C0BBD8334721AA04BF45 /* Pods */,
+				667101B1FEA3A68B2B51003A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D69281F21CD92C6006E5C4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D69281E21CD92C6006E5C4C /* Casino.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3D69282021CD92C6006E5C4C /* Casino */ = {
+			isa = PBXGroup;
+			children = (
+				3D69282121CD92C6006E5C4C /* AppDelegate.swift */,
+				84ECB7EA21EF4AD2004D68BA /* Supporting files */,
+				84ECB7E421EF04BA004D68BA /* Login-registration */,
+				84752C5021EA90F1002CCF3E /* Menu */,
+				3D31469D21D53EEC008812CB /* GamesCollectionViewController.swift */,
+				0BDE871A21EA4AA600E544B7 /* GamesCollectionViewCell.swift */,
+				84ECB7E221EF04A7004D68BA /* DailyRewardViewController.swift */,
+				3DBB908F21FA0CDB00053417 /* HistoryViewController.swift */,
+				3D8FE17E21FB597B00DCDB10 /* DailyHistoryVC.swift */,
+				3D69282321CD92C6006E5C4C /* art.scnassets */,
+				3D69282521CD92C6006E5C4C /* ViewController.swift */,
+				0B818DC621F0E99E0062FF8C /* GameVIewController.swift */,
+				3D8A7996220B4E9600845C1A /* PassChange.storyboard */,
+				3D69282721CD92C6006E5C4C /* Main.storyboard */,
+				3DBB908D21FA0BA300053417 /* History.storyboard */,
+				3D69282C21CD92C9006E5C4C /* LaunchScreen.storyboard */,
+				3D69281F21CD92C6006E5C4C /* Products */,
+				84ECB7E821EF27AD004D68BA /* Assets.xcassets */,
+				3D69282F21CD92C9006E5C4C /* Info.plist */,
+				3D69283921CE5E37006E5C4C /* GoogleService-Info.plist */,
+				84ECB7DA21EE9524004D68BA /* Sound */,
+			);
+			path = Casino;
+			sourceTree = "<group>";
+		};
+		667101B1FEA3A68B2B51003A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				004CE26838205D06D9C0F623 /* Pods_Casino.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84680B792201B85300C1C765 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3D2685A021E29C5F005F1430 /* User.swift */,
+				3DDD258421FB3AC300E1D5B9 /* DailyHistory.swift */,
+				3DC9311B21F6278500B1D49E /* History.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		84680B7A2201B86900C1C765 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D3146A121D53FBC008812CB /* UserViewController.swift */,
+				84752C4A21EA8F5C002CCF3E /* EditionViewController.swift */,
+				0B7FE8AC21F51A3B006E6609 /* PasswordEditViewController.swift */,
+			);
+			path = "View controllers";
+			sourceTree = "<group>";
+		};
+		8473539521EA96A8006F0168 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				84680B7A2201B86900C1C765 /* View controllers */,
+				84680B792201B85300C1C765 /* Data */,
+				84ECB7E121EE9BC2004D68BA /* Cells */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		84752C5021EA90F1002CCF3E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8473539521EA96A8006F0168 /* User */,
+				84752C4C21EA8F5D002CCF3E /* PopUpViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		84ECB7DA21EE9524004D68BA /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				8493F9FB21F7B618003151F5 /* winning-sound.mp3 */,
+				8493F9FF21F7B796003151F5 /* insert-coin.mp3 */,
+				8493F9F921F7B5F1003151F5 /* roll.mp3 */,
+				84ECB7DB21EE9538004D68BA /* ambience_casino.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		84ECB7E121EE9BC2004D68BA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84ECB7DD21EE9BBC004D68BA /* HistoryTableViewCell.swift */,
+				84ECB7DE21EE9BBC004D68BA /* HistoryTableViewCell.xib */,
+				3D8FE18021FB5C6A00DCDB10 /* DailyHistoryTableViewCell.swift */,
+				3D8FE18121FB5C6A00DCDB10 /* DailyHistoryTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84ECB7E421EF04BA004D68BA /* Login-registration */ = {
+			isa = PBXGroup;
+			children = (
+				3D8129EC21D24DED005C29D7 /* RegViewController.swift */,
+				3D8129EA21D24DB0005C29D7 /* LoginViewController.swift */,
+			);
+			path = "Login-registration";
+			sourceTree = "<group>";
+		};
+		84ECB7E521EF053A004D68BA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84F3D70121F61D3100BAA172 /* UIButton+shadow.swift */,
+				3D38004221F7DFE2004C9FCD /* UIDatePicker+yearsLimit .swift */,
+				0BC021DD220B533F001FAFA1 /* ShakingAnimation.swift */,
+				0BDE871821E959E800E544B7 /* UItextField+Validation.swift */,
+				3D2124D221EFA5FD00E26305 /* String+getUserID.swift */,
+				0BF3819821F13C530066FFE3 /* GlowingAnimation.swift */,
+				0BF3819A21F13CA90066FFE3 /* Colors.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		84ECB7EA21EF4AD2004D68BA /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				84ECB7ED21EF5267004D68BA /* Classes */,
+				84ECB7E521EF053A004D68BA /* Extension */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		84ECB7ED21EF5267004D68BA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0BC021D9220B5318001FAFA1 /* AnimatingButton.swift */,
+				0BC021DB220B5322001FAFA1 /* CustomActivityIndicator.swift */,
+				0B992C8A21F3771D0010DCA3 /* Plane.swift */,
+				84ECB7EB21EF4B00004D68BA /* AudioPlayer.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D69281D21CD92C6006E5C4C /* Casino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D69283221CD92C9006E5C4C /* Build configuration list for PBXNativeTarget "Casino" */;
+			buildPhases = (
+				3AE32AFE15673FE78F2BCD59 /* [CP] Check Pods Manifest.lock */,
+				3D69281A21CD92C6006E5C4C /* Sources */,
+				3D69281B21CD92C6006E5C4C /* Frameworks */,
+				3D69281C21CD92C6006E5C4C /* Resources */,
+				2ED4BE075A819B9EBA877215 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Casino;
+			productName = Casino;
+			productReference = 3D69281E21CD92C6006E5C4C /* Casino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D69281621CD92C6006E5C4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ACA;
+				TargetAttributes = {
+					3D69281D21CD92C6006E5C4C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3D69281921CD92C6006E5C4C /* Build configuration list for PBXProject "Casino" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D69281521CD92C6006E5C4C;
+			productRefGroup = 3D69281F21CD92C6006E5C4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D69281D21CD92C6006E5C4C /* Casino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D69281C21CD92C6006E5C4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8493FA0021F7B796003151F5 /* insert-coin.mp3 in Resources */,
+				3D69282421CD92C6006E5C4C /* art.scnassets in Resources */,
+				8493F9FA21F7B5F1003151F5 /* roll.mp3 in Resources */,
+				3D8A7997220B4E9600845C1A /* PassChange.storyboard in Resources */,
+				3D69282E21CD92C9006E5C4C /* LaunchScreen.storyboard in Resources */,
+				8493F9FC21F7B618003151F5 /* winning-sound.mp3 in Resources */,
+				3D69283A21CE5E37006E5C4C /* GoogleService-Info.plist in Resources */,
+				84ECB7E921EF27AE004D68BA /* Assets.xcassets in Resources */,
+				8435CC6221F1C57000E8DC19 /* CoinParticle.sks in Resources */,
+				84ECB7DC21EE9538004D68BA /* ambience_casino.mp3 in Resources */,
+				3D8FE18321FB5C6A00DCDB10 /* DailyHistoryTableViewCell.xib in Resources */,
+				84ECB7E021EE9BBC004D68BA /* HistoryTableViewCell.xib in Resources */,
+				3DBB908E21FA0BA300053417 /* History.storyboard in Resources */,
+				3D69282921CD92C6006E5C4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ED4BE075A819B9EBA877215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Casino/Pods-Casino-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ExpandingMenu/ExpandingMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandingMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Casino/Pods-Casino-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AE32AFE15673FE78F2BCD59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Casino-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D69281A21CD92C6006E5C4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8129EB21D24DB0005C29D7 /* LoginViewController.swift in Sources */,
+				3D3146A221D53FBC008812CB /* UserViewController.swift in Sources */,
+				84ECB7DF21EE9BBC004D68BA /* HistoryTableViewCell.swift in Sources */,
+				3D31469E21D53EEC008812CB /* GamesCollectionViewController.swift in Sources */,
+				3D2124D321EFA5FD00E26305 /* String+getUserID.swift in Sources */,
+				0B992C8B21F3771D0010DCA3 /* Plane.swift in Sources */,
+				3D69282621CD92C6006E5C4C /* ViewController.swift in Sources */,
+				3D8FE17F21FB597B00DCDB10 /* DailyHistoryVC.swift in Sources */,
+				0BC021DE220B533F001FAFA1 /* ShakingAnimation.swift in Sources */,
+				3D38004321F7DFE2004C9FCD /* UIDatePicker+yearsLimit .swift in Sources */,
+				84752C4B21EA8F5C002CCF3E /* EditionViewController.swift in Sources */,
+				0BF3819921F13C530066FFE3 /* GlowingAnimation.swift in Sources */,
+				3DC9311C21F6278500B1D49E /* History.swift in Sources */,
+				84F3D70221F61D3100BAA172 /* UIButton+shadow.swift in Sources */,
+				3D8FE18221FB5C6A00DCDB10 /* DailyHistoryTableViewCell.swift in Sources */,
+				0BC021DC220B5322001FAFA1 /* CustomActivityIndicator.swift in Sources */,
+				84752C4D21EA8F5E002CCF3E /* PopUpViewController.swift in Sources */,
+				0B7FE8AD21F51A3B006E6609 /* PasswordEditViewController.swift in Sources */,
+				3D2685A121E29C5F005F1430 /* User.swift in Sources */,
+				3DBB909021FA0CDB00053417 /* HistoryViewController.swift in Sources */,
+				3DDD258521FB3AC300E1D5B9 /* DailyHistory.swift in Sources */,
+				3D69282221CD92C6006E5C4C /* AppDelegate.swift in Sources */,
+				0BDE871921E959E800E544B7 /* UItextField+Validation.swift in Sources */,
+				0BDE871B21EA4AA600E544B7 /* GamesCollectionViewCell.swift in Sources */,
+				0B818DC721F0E99E0062FF8C /* GameVIewController.swift in Sources */,
+				3D8129ED21D24DED005C29D7 /* RegViewController.swift in Sources */,
+				0BC021DA220B5318001FAFA1 /* AnimatingButton.swift in Sources */,
+				84ECB7E321EF04A7004D68BA /* DailyRewardViewController.swift in Sources */,
+				0BF3819B21F13CA90066FFE3 /* Colors.swift in Sources */,
+				84ECB7EC21EF4B00004D68BA /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D69282721CD92C6006E5C4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D69282821CD92C6006E5C4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D69282C21CD92C9006E5C4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D69282D21CD92C9006E5C4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D69283021CD92C9006E5C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D69283121CD92C9006E5C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D69283321CD92C9006E5C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBC62615B9C6EE69884DB6B /* Pods-Casino.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FRFQ5UBCBY;
+				INFOPLIST_FILE = Casino/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ARCasino.Casino65;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D69283421CD92C9006E5C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A01ACC3DE72C61A62CDC52 /* Pods-Casino.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FRFQ5UBCBY;
+				INFOPLIST_FILE = Casino/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ARCasino.Casino65;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D69281921CD92C6006E5C4C /* Build configuration list for PBXProject "Casino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D69283021CD92C9006E5C4C /* Debug */,
+				3D69283121CD92C9006E5C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D69283221CD92C9006E5C4C /* Build configuration list for PBXNativeTarget "Casino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D69283321CD92C9006E5C4C /* Debug */,
+				3D69283421CD92C9006E5C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D69281621CD92C6006E5C4C /* Project object */;
+}

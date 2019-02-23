@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dzt-Xa-aKD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="cG1-gH-ja4">
+            <objects>
+                <viewController id="Dzt-Xa-aKD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BMR-fy-ydy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroungImage" translatesAutoresizingMaskIntoConstraints="NO" id="8cC-A2-8dK">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangletry" translatesAutoresizingMaskIntoConstraints="NO" id="2Hn-JY-zxy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARCasino presents..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2QJ-iT-QOA">
+                                <rect key="frame" x="52.5" y="531" width="270" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12941176469999999" green="0.27450980390000002" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2Hn-JY-zxy" firstAttribute="top" secondItem="BMR-fy-ydy" secondAttribute="top" id="6gl-pO-kbb"/>
+                            <constraint firstItem="2Hn-JY-zxy" firstAttribute="trailing" secondItem="Acn-Do-Ah3" secondAttribute="trailing" id="CqZ-iy-6Ba"/>
+                            <constraint firstItem="2QJ-iT-QOA" firstAttribute="centerX" secondItem="BMR-fy-ydy" secondAttribute="centerX" id="ETo-df-bma"/>
+                            <constraint firstItem="2Hn-JY-zxy" firstAttribute="bottom" secondItem="Acn-Do-Ah3" secondAttribute="bottom" id="Qvl-kR-R1T"/>
+                            <constraint firstItem="8cC-A2-8dK" firstAttribute="trailing" secondItem="Acn-Do-Ah3" secondAttribute="trailing" id="TZl-X8-4DU"/>
+                            <constraint firstAttribute="bottom" secondItem="2QJ-iT-QOA" secondAttribute="bottom" constant="100" id="X5h-aP-yJ8"/>
+                            <constraint firstItem="2Hn-JY-zxy" firstAttribute="leading" secondItem="Acn-Do-Ah3" secondAttribute="leading" id="coO-l7-Y34"/>
+                            <constraint firstItem="8cC-A2-8dK" firstAttribute="bottom" secondItem="Acn-Do-Ah3" secondAttribute="bottom" id="rLf-Gb-nmq"/>
+                            <constraint firstItem="8cC-A2-8dK" firstAttribute="top" secondItem="Acn-Do-Ah3" secondAttribute="top" id="rRT-xz-pcJ"/>
+                            <constraint firstItem="8cC-A2-8dK" firstAttribute="leading" secondItem="Acn-Do-Ah3" secondAttribute="leading" id="uuJ-fr-did"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Acn-Do-Ah3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OQD-WX-gLb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rectangletry" width="375" height="643"/>
+        <image name="backgroungImage" width="375" height="642"/>
+    </resources>
+</document>

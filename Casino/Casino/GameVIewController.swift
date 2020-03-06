@@ -332,7 +332,6 @@ class GameVIewController: UIViewController, ARSCNViewDelegate, BlurredEffectDele
                 
             }
             
-            
             slotRollPosition[0] += Int(r1)
             slotRollPosition[1] += Int(r2)
             slotRollPosition[2] += Int(r3)
@@ -569,7 +568,7 @@ class GameVIewController: UIViewController, ARSCNViewDelegate, BlurredEffectDele
             currentAngleY = node.eulerAngles.y
         }
     }
-
+    
 }
 
 //
